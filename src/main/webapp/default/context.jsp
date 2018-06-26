@@ -54,7 +54,7 @@ Below is a sample of that information:
     </tr>
     <c:if test="${!empty canvasRequest.context.environmentContext.record.Id}" >
       <tr>
-        <td colspan="2">You are currently viewing <b>${canvasRequest.context.environmentContext.record.attributes.type} ${canvasRequest.context.environmentContext.record.Id}</b></td>
+        <td colspan="2">You are currently viewing <b>${canvasRequest.context.environmentContext.record.attributes.type} ${canvasRequest.context.environmentContext.record.ProductID}</b></td>
       </tr>
     </c:if>
     
